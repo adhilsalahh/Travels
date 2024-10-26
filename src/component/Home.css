@@ -1,0 +1,140 @@
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+    
+}
+.navbar .dropdown-menu .dropdown-item {
+  color: black !important;
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #f8f9fa; /* Optional: Change background color on hover */
+  color: black !important;   /* Keep text black on hover */
+}
+.navehome{
+    margin-left: 30px;
+}
+.dropdown{
+    margin-left: 10px;
+}
+.nav-link{
+    margin-left: 20px;
+}
+.nave-item a{
+    
+}.navehome .nav-link, 
+.navehome .dropdown-item {
+  color: white !important;
+  font-size: 20px;
+  font-weight: 300px;
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-item:hover {
+  color: #ccc !important;
+}
+.nav-btn{
+    transition: all .3s ease-in-out .1s;
+    outline: 0 !important;
+ 
+    color: var(--main-color);
+}
+.bg-main{
+/* position: relative; */
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 370px 0 280px 0; */
+    height: 175vh;
+
+}
+.bg-main-chaild{
+  /* background-color: transparent; */
+    position: absolute;
+   
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.icon {
+    color: blue; /* Change to any color you want */
+  }
+
+
+  .first-div {
+
+    background: #fff;
+    box-shadow: 4px 14px 28px rgba(0, 0, 0, .1);
+    width: auto;
+    background-color: white;
+   
+    max-width: 100%;
+}
+.selection-image-top{
+    position: relative;
+
+    /* padding-top: 270px; */
+}
+
+.imagitation-coloms {
+  width: 25%; /* Sets each column to take up 25% of the row */
+}
+
+/* =========TOP DESTINATION========= */
+.top-destination h1 {
+    position: relative; 
+  }
+  
+  .top-destination h1:after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background: rgb(169, 8, 223);
+    margin-top: 10px;
+    left: 50%;
+    transform: translateX(-50%); 
+    bottom: -10px;
+  }
+
+
+  /* ===========EXPLORE========== */
+  .Explore-nav{
+
+
+  }
+  
+
+  /* =====LATEEST TRAVEL====== */
+  .latest-image-text{
+    font-size: 22px;
+  }
+
+
+
+  /* .navbar */
+  .nav-dropdown-hover-effect {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .nav-dropdown-hover-effect::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    top: 26px;
+    
+    height: 2px;
+    background-color: #f6f6f6; /* Purple color */
+    transition: width 0.2s ease-in-out;
+  }
+  
+  .nav-dropdown-hover-effect:hover::after {
+    width: 100%;
+  }
+  
