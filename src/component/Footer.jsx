@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faTwitterSquare, faFacebookSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faSolidIconName } from '@fortawesome/free-solid-svg-icons';  // Replace with actual icons
+import { Link, } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -44,7 +45,11 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-4 inline-block border-b-2 border-violet-500">Company Details</h3>
             <ul className='text-start  p-0'>
-              <li className="mt-2">About Us</li>
+
+                    <li className="mt-2">
+                <Link to="/about" className='text-black no-underline'>About Us</Link>
+              </li>
+
               <li className="mt-2">Testimonials</li>
               <li className="mt-2">Rewards</li>
               <li className="mt-2">Work with Us</li>
