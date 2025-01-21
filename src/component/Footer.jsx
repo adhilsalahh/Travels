@@ -5,7 +5,7 @@ import { faSolidIconName } from '@fortawesome/free-solid-svg-icons';  // Replace
 
 const Footer = () => {
   return (
-    <div className='bg-gray-100 text-gray-700 py-10  border-violet-600'>
+    <div className='bg-white text-gray-700 py-10  border-violet-600'>
       <div className='container'>
         {/* Footer Grid Layout */}
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">

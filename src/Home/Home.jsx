@@ -81,7 +81,7 @@ function Home() {
   <ul className="flex flex-col sm:flex-row gap-2 sm:gap-4 justify-start xl:justify-end p-0">
   <li className="w-full sm:w-1/5 md:w-1/6 lg:w-1/5 sm:text-left">
     <button className="p-0 w-full sm:text-left">
-      <a href="#" className="block p-0 text-violet-600 font-semibold no-underline sm:whitespace-nowrap sm:text-left">
+      <a href="#" className="block p-0 text-violet-600 font-semibold no-underline  sm:text-left">
         One Way
       </a>
     </button>

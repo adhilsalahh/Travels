@@ -54,7 +54,7 @@ function Navbr() {
                       <NavDropdown.Item as={Link} to="/contact" className="text-white">Contact</NavDropdown.Item>
                     </NavDropdown>
 
-                    <Nav.Link as={Link} to="/contact" className="text-white font-medium  ">Contact</Nav.Link>
+                    <Nav.Link as={Link} to="/contact" className="text-white font-medium text-lg  ">Contact</Nav.Link>
                   </Nav>
 
                   <form action="">

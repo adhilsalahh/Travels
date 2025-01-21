@@ -60,8 +60,8 @@ function Destination() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 col-12 row">
-                <div className="col-lg-4 col-md-4 col-sm-12 col-12 p-1 block">
+              <div className="col-lg-6 col-md-12 col-sm-12 col-12 sm:ml-1 lg:ml-0 md:ml-0 row">
+              <div className="col-lg-4 col-md-4 col-sm-12 col-12 p-1 block">
                   <div className="mb-2 p-1">
                     <div className="overflow-hidden rounded relative">
                       <img
